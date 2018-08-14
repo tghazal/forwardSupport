@@ -1,0 +1,287 @@
+
+#navLogo {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 10px;
+}
+
+body {
+    background: url("../images/SiteBG.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: #3087b0;
+  color: white;
+};
+
+.col-lg-12 {
+  width: 100%;
+};
+
+
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #ddd;
+}
+
+
+
+
+#jumbo {
+  margin: auto;
+   width: 50%;
+ }
+
+#signIn {
+  font-size: 21px;
+}
+
+#register {
+  font-size: 21px;
+}
+
+#formFont {
+  font-size: 15px;
+
+}
+
+#logo1 {
+  margin: auto;
+   width: 50%;
+ }
+
+.logo2{
+  display: none;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px) {
+  
+  
+} */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .col-lg-12 {
+    width: 100%;
+  };
+  
+  .homeNav {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .logo1{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .logo2{
+    display: none;
+    margin: auto;
+    width: 50%;
+     
+  }
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .col-lg-12 {
+    width: 100%;
+  };
+  
+  .homeNav {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .logo1{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .logo2{
+    display: none;
+    margin: auto;
+    width: 50%;
+     
+  }
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .col-lg-12 {
+    width: 100%;
+  };
+  
+  .homeNav {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .logo1{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .logo2{
+    display: none;
+    margin: auto;
+    width: 50%;
+     
+  }
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.col-lg-12 {
+  width: 100%;
+};
+
+.homeNav {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #ddd;
+}
+.logo1{
+  display: none;
+  margin: auto;
+  width: 50%;
+}
+
+.logo2{
+  display: block;
+  margin: auto;
+  width: 50%;
+   
+}
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #ddd;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 1px) and (max-width: 480px) {
+  
+.col-lg-12 {
+  width: 100%;
+};
+
+.homeNav {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #ddd;
+}
+.logo1{
+  display: none;
+  margin: auto;
+  width: 50%;
+}
+
+.logo2{
+  display: block;
+  margin: auto;
+  width: 50%;
+   
+}
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 1px solid #ddd;
+}
+
+
+}
