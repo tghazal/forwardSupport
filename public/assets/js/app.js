@@ -104,7 +104,10 @@ $(document).ready(function () {
         window.location.assign("/");
     })
 
-
+    $("#register").on("click", function (e) {
+        e.preventDefault();
+        window.location.assign("/register");
+    })
     $("#submit-login").on("click", function (e) {
         e.preventDefault();
         axios.post("/auth/index", {
